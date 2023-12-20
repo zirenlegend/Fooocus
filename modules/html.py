@@ -72,6 +72,10 @@ progress::after {
   height: 80px !important;
 }
 
+.type_row_half{
+  height: 32px !important;
+}
+
 .scroll-hide{
   resize: none !important;
 }
@@ -81,6 +85,31 @@ progress::after {
   background: none !important;
   font-size: none !important;
   box-shadow: none !important;
+}
+
+.advanced_check_row{
+  width: 250px !important;
+}
+
+.min_check{
+  min-width: min(1px, 100%) !important;
+}
+
+.resizable_area {
+  resize: vertical;
+  overflow: auto !important;
+}
+
+.aspect_ratios label {
+    width: 140px !important;
+}
+
+.aspect_ratios label span {
+    white-space: nowrap !important;
+}
+
+.aspect_ratios label input {
+    margin-left: -5px !important;
 }
 
 '''
